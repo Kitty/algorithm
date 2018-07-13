@@ -3,7 +3,7 @@ package com.algorithm;
 import java.util.Iterator;
 
 /**
- * 《算法》第四版 调整数组大小
+ * 下压栈 数组实现
  *
  * @author 灿夏
  * @@date 2018-07-12
