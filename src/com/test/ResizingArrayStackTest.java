@@ -8,7 +8,7 @@ import java.util.Iterator;
 /**
  * 动态调整数组大小测试类
  *
- * @author 灿夏
+ * @author lzy
  * @date 2018-07-12
  */
 public class ResizingArrayStackTest {
