@@ -1,10 +1,11 @@
 package com.algorithm;
+
 import java.util.Iterator;
 
 /**
  * 《算法》第四版 调整数组大小
  *
- * @author 灿夏Summer
+ * @author 灿夏
  * @@date 2018-07-12
  */
 public class ResizingArrayStack<Item> implements Iterable<Item> {
