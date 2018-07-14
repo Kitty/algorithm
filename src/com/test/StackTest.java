@@ -13,11 +13,11 @@ import java.util.Iterator;
 public class StackTest {
     public static void main(String[] args) {
         Stack<Integer> item = new Stack();
-        item.push(1);
-        item.push(2);
-        item.push(3);
-        item.push(4);
-        System.out.println("size"+item.size());
+        item.push(new Integer(1));
+        item.push(new Integer(2));
+        item.push(new Integer(3));
+        item.push(new Integer(4));
+        System.out.println("size" + item.size());
         Iterator<Integer> iterator = item.iterator();
         while (iterator.hasNext()) {
             System.out.println(iterator.next());
