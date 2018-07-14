@@ -46,17 +46,18 @@ public class Stack<Item> implements Iterable<Item> {
     }
 
     private class ReverseArrayIterator implements Iterator<Item> {
-        private int i = N;
+        private Node current = first;
 
         @Override
         public boolean hasNext() {
-            return i > 0;
+            return current.next != null;
         }
 
         @Override
         public Item next() {
-            i--;
-            return pop();
+            Item item = current.item;
+            current = current.next;
+            return item;
 
         }
 

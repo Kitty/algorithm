@@ -52,9 +52,10 @@ public class Queue<Item> implements Iterable<Item> {
 
     @Override
     public Iterator<Item> iterator() {
-        return null;
+        return new ListIterator();
     }
-    private class ListIterator implements Iterator<Item>{
+
+    private class ListIterator implements Iterator<Item> {
         private Node current = first;
 
 
@@ -70,7 +71,7 @@ public class Queue<Item> implements Iterable<Item> {
 
         @Override
         public Item next() {
-            Item item =current.item;
+            Item item = current.item;
             current = current.next;
             return item;
         }

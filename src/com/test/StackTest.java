@@ -19,9 +19,10 @@ public class StackTest {
         item.push(new Integer(4));
         System.out.println("size" + item.size());
         Iterator<Integer> iterator = item.iterator();
-        while (iterator.hasNext()) {
+        for (int i =0;i<item.size();i++) {
             System.out.println(iterator.next());
         }
+
 
 
     }
