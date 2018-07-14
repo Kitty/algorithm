@@ -25,6 +25,7 @@ public class ResizingArrayStack<Item> implements Iterable<Item> {
         for (int i = 0; i < N; i++) {
             temp[i] = a[i];
             a = temp;
+
         }
     }
 
