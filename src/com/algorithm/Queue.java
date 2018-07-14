@@ -5,7 +5,7 @@ import java.util.Iterator;
 /**
  * 队列实现下压栈
  *
- * @author lzy
+ * @author Summer
  * @date 2018-7-14
  */
 public class Queue<Item> implements Iterable<Item> {

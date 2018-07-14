@@ -5,7 +5,7 @@ import java.util.Iterator;
 /**
  * 下压栈数组实现
  *
- * @author lzy
+ * @author Summer
  * @@date 2018-07-12
  */
 public class ResizingArrayStack<Item> implements Iterable<Item> {

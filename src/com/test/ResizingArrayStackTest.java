@@ -8,7 +8,7 @@ import java.util.Iterator;
 /**
  * ResizingArrayStack测试类
  *
- * @author lzy
+ * @author Summer
  * @date 2018-07-12
  */
 public class ResizingArrayStackTest {

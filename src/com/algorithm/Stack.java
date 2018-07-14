@@ -5,7 +5,7 @@ import java.util.Iterator;
 /**
  * 下压栈链表实现
  *
- * @author l
+ * @author Summer
  * @date 2018-7-14
  */
 public class Stack<Item> implements Iterable<Item> {

@@ -7,7 +7,7 @@ import java.util.Iterator;
 /**
  * Stack测试类
  *
- * @author l
+ * @author Summer
  * @date 2018-7-14
  */
 public class StackTest {
