@@ -5,7 +5,7 @@ import java.util.Iterator;
 /**
  * 下压栈链表实现
  *
- * @author lzy
+ * @author l
  * @date 2018-7-14
  */
 public class Stack<Item> implements Iterable<Item> {
@@ -55,12 +55,9 @@ public class Stack<Item> implements Iterable<Item> {
 
         @Override
         public Item next() {
-            if (hasNext()) {
-                Node node = first;
-                first = first.next;
+            i--;
+            return pop();
 
-            }
-            return first.item;
         }
 
         @Override
