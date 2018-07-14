@@ -3,7 +3,7 @@ package com.algorithm;
 import java.util.Iterator;
 
 /**
- * 下压栈 数组实现
+ * 下压栈数组实现
  *
  * @author lzy
  * @@date 2018-07-12
