@@ -6,7 +6,7 @@ import java.awt.event.ItemEvent;
 import java.util.Iterator;
 
 /**
- * 动态调整数组大小测试类
+ * ResizingArrayStack测试类
  *
  * @author lzy
  * @date 2018-07-12
