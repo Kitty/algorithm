@@ -21,11 +21,11 @@ public class Stack<Item> implements Iterable<Item> {
         return first == null;
     }
 
-    public int size(){
+    public int size() {
         return N;
     }
 
-    public void push(Item item){
+    public void push(Item item) {
         Node oldFirst = first;
         first = new Node();
         first.item = item;
@@ -33,7 +33,7 @@ public class Stack<Item> implements Iterable<Item> {
         N++;
     }
 
-    public Item pop(){
+    public Item pop() {
         Item item = first.item;
         first = first.next;
         N--;
@@ -44,6 +44,7 @@ public class Stack<Item> implements Iterable<Item> {
     public Iterator<Item> iterator() {
         return new ReverseArrayIterator();
     }
+
     private class ReverseArrayIterator implements Iterator<Item> {
         private int i = N;
 
@@ -54,7 +55,11 @@ public class Stack<Item> implements Iterable<Item> {
 
         @Override
         public Item next() {
-            i--;
+            if (hasNext()) {
+                Node node = first;
+                first = first.next;
+
+            }
             return first.item;
         }
 
