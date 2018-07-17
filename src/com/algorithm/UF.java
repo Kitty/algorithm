@@ -7,7 +7,13 @@ package com.algorithm;
  * @date 2018-7-17
  */
 public class UF {
+    /**
+     * 分量id
+     */
     private int[] id;
+    /**
+     * 分量数量
+     */
     private int count;
 
     public UF(int N) {
