@@ -19,8 +19,10 @@ public class Selection {
 
     public static void sort(Comparable[] a) {
         int N = a.length;
+        //第一层循环遍历数组a
         for (int i = 0; i < N; i++) {
             int min = i;
+            //第二层循环比较a[i]与a[i+1]的大小
             for (int j = i + 1; j < N; j++) {
                 if (less(a[j], a[min])) {
                     min = j;
