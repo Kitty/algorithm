@@ -7,6 +7,11 @@ package com.algorithm;
  * @date 2018-7-21
  */
 public class Selection {
+    private static boolean less(Comparable v,Comparable w){
+        return v.compareTo(w)<0;
+    }
+
+
 
     public static void sort(Comparable[] a) {
         int N = a.length;
