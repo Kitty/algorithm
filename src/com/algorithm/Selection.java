@@ -7,6 +7,8 @@ package com.algorithm;
  * @date 2018-7-21
  */
 public class Selection {
+
+    //比较两个数
     private static boolean less(Comparable v, Comparable w) {
         return v.compareTo(w) < 0;
     }
@@ -27,6 +29,7 @@ public class Selection {
                 if (less(a[j], a[min])) {
                     min = j;
                 }
+                //找到最小元素之后交换位置
                 exch(a, i, min);
             }
         }
