@@ -58,7 +58,7 @@ public class Merge {
         //sort(a,0,a.length-1);
 
         //自底向上
-        for(int i = 1; i < a.length; i = i + i)
+        for(int i = 1; i < a.length; i++)
         {
             for(int lo = 0; lo < a.length - i; lo += i + i)
             {
