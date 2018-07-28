@@ -64,7 +64,8 @@ public class QuickSort {
 
     public static void main(String[] args) {
         Integer[] a = new Integer[10];
-        for (int i = 0; i < 10; i++) {
+        int N = 10;
+        for (int i = 0; i < N; i++) {
             a[i] = (int) (Math.random() * 10 + 1);
         }
         show(a);
