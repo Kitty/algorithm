@@ -10,7 +10,7 @@ import com.algorithm.Merge;
  */
 public class MergeTest {
     public static void main(String[] args) {
-        Comparable[] a = {33, 3, 55, 76, 23, 455, 87, 9, 76, 47,  70};
+        Comparable[] a = {33, 3, 55, 76, 23};
         Merge.sort(a);
         System.out.println("排序之后");
         for (int i= 0;i<a.length;i++){
