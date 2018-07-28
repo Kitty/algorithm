@@ -21,7 +21,7 @@ public class QuickSort {
         sort(a, 0, a.length - 1);
     }
 
-    public static void sort(Comparable[] a, int lo, int hi) {
+    private static void sort(Comparable[] a, int lo, int hi) {
         if (hi <= lo) {
             return;
         }
@@ -30,7 +30,7 @@ public class QuickSort {
         sort(a, j + 1, hi);
     }
 
-    public static int partition(Comparable[] a, int lo, int hi) {
+    private static int partition(Comparable[] a, int lo, int hi) {
         int i = lo;
         Comparable v = a[lo];
         int j = hi + 1;
