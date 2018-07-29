@@ -44,10 +44,10 @@ public class Merge {
      */
     public static void sort(Comparable[] a) {
         b = new Comparable[a.length];
-        // 自顶向下
+        // 自顶向下排序
         sort(a, 0, a.length - 1);
 
-        //自底向上
+        //自底向上排序
 //        for (int i = 1; i < a.length; i++) {
 //            for (int lo = 0; lo < a.length - i; lo += i + i) {
 //                merge(a, lo, lo + i - 1, Math.min(lo + i + i - 1, a.length - 1));
