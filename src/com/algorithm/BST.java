@@ -6,5 +6,17 @@ package com.algorithm;
  * @author lzy
  * @date 2018-8-9
  */
-public class BST<key extends Comparable<key>, Value> {
+public class BST<Key extends Comparable<Key>, Value> {
+    private class Node{
+        private Key key;
+        private Value val;
+        private Node left,right;
+        private int N;
+        public Node(Key key,Value val,int N){
+            this.key = key;
+            this.val = val;
+            this.N = N;
+        }
+
+    }
 }
