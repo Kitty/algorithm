@@ -8,11 +8,10 @@ import java.lang.annotation.ElementType;
  * @author lzy
  * @date 2018-8-9
  */
-
 public class BST<Key extends Comparable<Key>, Value> {
 
     //定义树
-    public class Node {
+    private class Node {
         //左结点
         private Node left;
         //右结点
