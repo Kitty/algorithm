@@ -156,7 +156,7 @@ public class BST<Key extends Comparable<Key>, Value> {
         return select(root, key).key;
     }
 
-    public Node select(Node x, int key) {
+    private Node select(Node x, int key) {
         if (x == null) {
             return null;
         }
