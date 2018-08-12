@@ -180,7 +180,7 @@ public class BST<Key extends Comparable<Key>, Value> {
         return rank(root, key);
     }
 
-    public int rank(Node x, Key key) {
+    private int rank(Node x, Key key) {
         if (x == null) {
             return 0;
         }
