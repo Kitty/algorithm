@@ -204,7 +204,7 @@ public class BST<Key extends Comparable<Key>, Value> {
         deleteMin(root);
     }
 
-    public Node deleteMin(Node x) {
+    private Node deleteMin(Node x) {
         //若当前结点的左子树为空，则返回当前结点的右子树的结点
         if (x.left == null) {
             return x.right;
@@ -223,7 +223,7 @@ public class BST<Key extends Comparable<Key>, Value> {
         root = delete(root, key);
     }
 
-    public Node delete(Node x, Key key) {
+    private Node delete(Node x, Key key) {
         if (x == null) {
             return null;
         }
